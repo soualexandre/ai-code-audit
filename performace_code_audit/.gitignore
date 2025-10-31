@@ -1,2 +1,20 @@
-/node_modules
-/packeg-lock.json
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependências
+node_modules/
+
+# Arquivos de build (compilação)
+dist/
+build/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*
+
+# Cache de IDEs
+.vscode/
+.idea/
