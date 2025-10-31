@@ -1,6 +1,16 @@
 {
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only main.ts",
+    "build": "tsc",
+    "start": "node dist/main.ts"
+  },
   "dependencies": {
     "fastify": "^5.6.1",
     "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
   }
 }
