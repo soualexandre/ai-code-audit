@@ -1,6 +1,5 @@
 import Fastify from 'fastify';
-import dashboardRoutes from './src/dashboard.routes';
-import { deepStrictEqual } from 'assert';
+import dashboardRoutes from './src/modules/dashboard/dashboard.routes';
 
 const app = Fastify({
   logger: true
